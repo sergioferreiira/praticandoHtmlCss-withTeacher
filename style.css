@@ -57,6 +57,14 @@ body {
     margin-bottom: 1em;
 }
 
+.container__button:hover {
+    background-color: #167bf76b;
+}
+
+.container__button:active {
+    color: #f71616;
+}
+
 .secundary__button {
     background-color: transparent;
     border: 2px solid var(--primary-color);
@@ -65,4 +73,130 @@ body {
 .container__alert {
     font-size: 0.8rem;
     margin-top: 1em;
+}
+
+.secondary {
+    align-items: center;
+    padding: 0 5em;
+}
+
+.container__photos {
+    width: 80%;
+}
+
+.description {
+    padding: 1em;
+}
+
+.description__title {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.description__text {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.button__container {
+    display: inline-block;
+}
+
+.button__container:hover {
+    display: inline-block;
+    background-color: transparent;
+    color: var(--tertiary-color);
+}
+
+.button__container:active {
+    color: #f71616;
+}
+
+.device {
+    align-items: center;
+    text-align: center;
+}
+
+.device__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.device__itens {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer__information {
+    text-align: center;
+    padding: 0% 10%;
+}
+
+.footer__logo {
+    padding: 3rem;
+    margin: 3%;
+}
+
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 2% 0%;
+}
+
+.footer__links__links {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: var(--tertiary-color);
+    border-radius: 5px;
+}
+
+.footer__links__links:hover {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.footer__links__links:active {
+    color: #f71616;
+    background-color: transparent;
+}
+
+.footer__rights {
+    padding: 2%;
+    gap: 10px;
+}
+
+.footer__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 1em 0;
+}
+
+.developer {
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.developer:hover {
+    background-color: var(--tertiary-color);
+
 }
